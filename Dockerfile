@@ -34,8 +34,7 @@ EXPOSE 6060/tcp
 EXPOSE 8545/tcp
 # WebSocket based JSON RPC API
 EXPOSE 8546/tcp
-# GraphQL API
-EXPOSE 8547/tcp
+
 ENTRYPOINT ["/entrypoint.sh"]
 
 CMD ["bsc"]
